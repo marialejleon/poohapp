@@ -18,7 +18,7 @@ poofood = comidita()
 
 @app.route('/', methods=['GET'])
 def home():
-    return "<h1>Hello Pooh Pooh Pooh Pooh!!!!!</h1>"
+    return "<h1>Holi Pooh Pooh Pooh Pooh!!!!!</h1>"
 
 @app.route('/test', methods=['GET'])
 def test():
